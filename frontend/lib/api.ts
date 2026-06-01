@@ -7,7 +7,7 @@ import type {
   ScanProgressEvent,
 } from "./types";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "https://slops-hackathon-project-production.up.railway.app";
 
 export async function analyzeReview(params: {
   review_text: string;

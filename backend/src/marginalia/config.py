@@ -38,6 +38,7 @@ class Settings(BaseSettings):
         "http://127.0.0.1:3000",
         "https://marginalia.vercel.app",
         "https://marginalia-ai.vercel.app",
+        "https://marginalia-pink.vercel.app",
         "https://slops-hackathon-project.vercel.app",
         "https://slops---hackathon-project.vercel.app",
         "https://slops-hackathon-project-production.up.railway.app",
