@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: marginalia-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: PYTHONPATH
+        value: src
+      - key: LOG_LEVEL
+        value: INFO
+    healthCheckPath: /health

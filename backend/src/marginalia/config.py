@@ -37,6 +37,8 @@ class Settings(BaseSettings):
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "https://marginalia.vercel.app",
+        "https://marginalia-ai.vercel.app",
+        "https://slops-hackathon-project.vercel.app",
     ]
 
     # ML Model

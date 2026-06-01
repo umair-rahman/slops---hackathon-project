@@ -8,17 +8,21 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python deps (production only)
+# Copy and install Python deps
 COPY pyproject.toml README.md ./
-RUN pip install --no-cache-dir -e "." && \
-    python -m spacy download en_core_web_sm
+RUN pip install --no-cache-dir -e "."
 
-# Pre-download embedding model to bake into image
+# Download spaCy model
+RUN python -m spacy download en_core_web_sm
+
+# Pre-download embedding model (baked into image — no cold start delay)
 RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 
-# Copy source
+# Copy source code
 COPY src/ ./src/
 
-EXPOSE 8000
+# Render uses PORT env variable
+ENV PORT=8000
+EXPOSE $PORT
 
-CMD ["uvicorn", "marginalia.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+CMD uvicorn marginalia.main:app --host 0.0.0.0 --port $PORT
