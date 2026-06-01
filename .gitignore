@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+
+# Env files — NEVER commit
+.env
+.env.local
+.env.production
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files)
+*.bin
+*.pt
+*.onnx
+models/
+.arxiv_cache/
+
+# Logs
+*.log
+logs/
+
+# Fly.io
+.fly/
+
+# Vercel
+.vercel/
+
+# Internal docs (not for public repo)
+docs/
+
+# Generated files
+eval/results/report.txt
+package-lock.json
+
+# Default Next.js assets (not needed)
+frontend/public/vercel.svg
+frontend/public/globe.svg
+frontend/public/file.svg
+frontend/public/window.svg
+
+# Sensitive scripts
+backend/scripts/verify_credentials.py

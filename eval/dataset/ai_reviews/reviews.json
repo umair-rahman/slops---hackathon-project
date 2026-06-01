@@ -1,0 +1,302 @@
+[
+  {
+    "id": "ai_001",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper presents an interesting contribution to the field of machine learning. The proposed method is well-described and the results are promising. The authors have done a good job of explaining their approach. The writing is clear and the paper is well-organized. I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_002",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper presents a novel approach to the problem of natural language processing. The methodology is sound and the experimental results demonstrate the effectiveness of the proposed method. The paper is well-written and easy to follow. I recommend acceptance."
+  },
+  {
+    "id": "ai_003",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper makes an interesting contribution to the area of computer vision. The proposed method achieves state-of-the-art results on several benchmarks. The experimental setup is thorough and the ablation studies are informative. I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_004",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper presents a new technique for deep learning. The proposed approach is well-motivated and the results are impressive. The paper is clearly written and the contributions are well-articulated. I recommend acceptance."
+  },
+  {
+    "id": "ai_005",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper introduces a novel framework for reinforcement learning. The proposed method is theoretically grounded and empirically validated. The experimental results show significant improvements over existing baselines. I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_006",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper proposes a new approach to graph neural networks. The methodology is well-described and the results are promising. The paper is well-organized and easy to follow. I recommend acceptance."
+  },
+  {
+    "id": "ai_007",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper presents an interesting contribution to the field of speech recognition. The proposed method achieves competitive results on standard benchmarks. The experimental setup is thorough and the analysis is insightful. I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_008",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper introduces a novel method for image segmentation. The proposed approach is well-motivated and the results demonstrate its effectiveness. The paper is clearly written and the contributions are significant. I recommend acceptance."
+  },
+  {
+    "id": "ai_009",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper presents a new framework for knowledge distillation. The methodology is sound and the experimental results are convincing. The paper is well-written and the ablation studies provide useful insights. I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_010",
+    "label": "ai",
+    "prompt_type": "lazy_abstract_only",
+    "text": "This paper proposes a novel approach to federated learning. The proposed method is well-described and the results are promising. The paper is clearly organized and the contributions are well-articulated. I recommend acceptance."
+  },
+  {
+    "id": "ai_011",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "The paper presents a well-motivated approach to an important problem in the field. The authors clearly explain their methodology and provide comprehensive experimental results. The strengths of the paper include the novel architecture design and the thorough ablation studies. However, the paper could benefit from additional experiments on more diverse datasets. Overall, this is a solid contribution and I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_012",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "This is a well-written paper that addresses an important challenge in machine learning. The proposed method is innovative and the experimental results are convincing. The paper is clearly organized with a good introduction, related work, and methodology sections. The main weakness is the limited comparison with recent baselines. I recommend acceptance with minor revisions to address the experimental gaps."
+  },
+  {
+    "id": "ai_013",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "The paper makes a meaningful contribution to the field. The proposed approach is novel and well-motivated. The experimental results demonstrate the effectiveness of the method across multiple benchmarks. The writing is clear and the paper is easy to follow. I have a few minor concerns about the experimental setup, but overall this is a strong paper. I recommend acceptance."
+  },
+  {
+    "id": "ai_014",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "This paper presents an interesting and novel approach to a challenging problem. The methodology is sound and the experimental results are impressive. The paper is well-organized and the contributions are clearly stated. The main limitation is the computational cost, which could limit practical applicability. Overall, I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_015",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "The paper addresses an important problem and proposes a creative solution. The experimental results are strong and the ablation studies provide good insights into the method. The writing is clear and the paper is well-structured. I have some concerns about the generalizability of the approach, but overall this is a solid contribution. I recommend acceptance."
+  },
+  {
+    "id": "ai_016",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "This is a well-executed paper that makes a clear contribution to the field. The proposed method is novel and the experimental results are convincing. The paper is clearly written with good motivation and thorough experiments. The main weakness is the lack of theoretical analysis. I recommend acceptance with minor revisions to strengthen the theoretical foundations."
+  },
+  {
+    "id": "ai_017",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "The paper presents a novel framework that addresses an important challenge. The methodology is well-described and the results demonstrate significant improvements over existing methods. The paper is well-organized and easy to follow. I have minor concerns about the experimental setup, but overall this is a strong contribution. I recommend acceptance."
+  },
+  {
+    "id": "ai_018",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "This paper makes an important contribution to the field. The proposed approach is innovative and well-motivated. The experimental results are impressive and the ablation studies are informative. The writing is clear and the paper is well-structured. I recommend acceptance with minor revisions to address some experimental gaps."
+  },
+  {
+    "id": "ai_019",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "The paper addresses a challenging problem and proposes an effective solution. The methodology is sound and the experimental results are convincing. The paper is well-written and the contributions are clearly articulated. The main limitation is the scalability of the approach. Overall, I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_020",
+    "label": "ai",
+    "prompt_type": "helpful_fluff",
+    "text": "This is a solid paper that makes a meaningful contribution to the field. The proposed method is novel and the experimental results demonstrate its effectiveness. The paper is clearly organized and easy to follow. I have some concerns about the comparison with baselines, but overall this is a strong contribution. I recommend acceptance."
+  },
+  {
+    "id": "ai_021",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: The paper proposes a new method for natural language understanding that achieves state-of-the-art results on multiple benchmarks. Strengths: (1) Novel architecture design, (2) Comprehensive experimental evaluation, (3) Clear writing. Weaknesses: (1) Limited theoretical analysis, (2) High computational cost. Questions: How does the method scale to longer sequences? Overall recommendation: Accept."
+  },
+  {
+    "id": "ai_022",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: This paper introduces a new approach to image classification that outperforms existing methods on ImageNet. Strengths: (1) Strong empirical results, (2) Thorough ablation studies, (3) Well-written paper. Weaknesses: (1) Limited comparison with recent methods, (2) No theoretical guarantees. Questions: What is the inference time compared to baselines? Overall recommendation: Accept with minor revisions."
+  },
+  {
+    "id": "ai_023",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: The paper presents a novel framework for graph learning that achieves competitive results on standard benchmarks. Strengths: (1) Interesting technical contribution, (2) Good experimental setup, (3) Clear motivation. Weaknesses: (1) Limited scalability analysis, (2) Missing comparison with some baselines. Questions: How does the method perform on heterogeneous graphs? Overall recommendation: Accept."
+  },
+  {
+    "id": "ai_024",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: This paper proposes a new method for text generation that improves fluency and coherence. Strengths: (1) Novel approach, (2) Strong human evaluation results, (3) Thorough analysis. Weaknesses: (1) Limited to English, (2) High memory requirements. Questions: Can the method be applied to other languages? Overall recommendation: Accept with minor revisions."
+  },
+  {
+    "id": "ai_025",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: The paper introduces a new optimization algorithm that converges faster than existing methods. Strengths: (1) Theoretical convergence guarantees, (2) Strong empirical results, (3) Easy to implement. Weaknesses: (1) Limited to convex objectives, (2) Requires careful hyperparameter tuning. Questions: How does the method compare to AdamW? Overall recommendation: Accept."
+  },
+  {
+    "id": "ai_026",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: This paper presents a new approach to few-shot learning that achieves state-of-the-art results. Strengths: (1) Novel meta-learning framework, (2) Comprehensive experiments, (3) Good ablation studies. Weaknesses: (1) High training cost, (2) Limited to classification tasks. Questions: Can the method be extended to regression? Overall recommendation: Accept with minor revisions."
+  },
+  {
+    "id": "ai_027",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: The paper proposes a new method for anomaly detection that outperforms existing approaches. Strengths: (1) Strong empirical results, (2) Novel technical contribution, (3) Clear writing. Weaknesses: (1) Limited theoretical analysis, (2) Requires clean training data. Questions: How does the method handle noisy training data? Overall recommendation: Accept."
+  },
+  {
+    "id": "ai_028",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: This paper introduces a new framework for continual learning that reduces catastrophic forgetting. Strengths: (1) Interesting approach, (2) Good experimental results, (3) Thorough ablation. Weaknesses: (1) Memory overhead, (2) Limited to classification. Questions: How does the method scale with the number of tasks? Overall recommendation: Accept with minor revisions."
+  },
+  {
+    "id": "ai_029",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: The paper presents a new method for knowledge graph completion that achieves competitive results. Strengths: (1) Novel embedding approach, (2) Strong empirical results, (3) Good analysis. Weaknesses: (1) Limited to transductive setting, (2) High memory requirements. Questions: Can the method handle unseen entities? Overall recommendation: Accept."
+  },
+  {
+    "id": "ai_030",
+    "label": "ai",
+    "prompt_type": "conference_standard",
+    "text": "Summary: This paper proposes a new approach to neural architecture search that reduces search cost. Strengths: (1) Efficient search strategy, (2) Strong results on CIFAR-10, (3) Clear methodology. Weaknesses: (1) Limited to image classification, (2) Results on ImageNet are not state-of-the-art. Questions: How does the method compare on NLP tasks? Overall recommendation: Accept with minor revisions."
+  },
+  {
+    "id": "ai_031",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "This paper has significant weaknesses that prevent acceptance. The proposed method is not sufficiently novel — it is essentially a combination of existing techniques without clear theoretical justification. The experimental results are not convincing — the improvements over baselines are marginal and within noise. The paper is poorly written with many grammatical errors. I recommend rejection."
+  },
+  {
+    "id": "ai_032",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "The paper has several critical flaws. First, the proposed method is not well-motivated — the authors do not explain why their approach should work better than existing methods. Second, the experimental evaluation is insufficient — only two datasets are used and the comparison with baselines is unfair. Third, the theoretical analysis is incorrect. I recommend rejection."
+  },
+  {
+    "id": "ai_033",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "This paper does not meet the bar for acceptance. The technical contribution is incremental and the experimental results do not support the claims made in the abstract. The related work section is incomplete and misses several important papers. The writing needs significant improvement. I recommend rejection with encouragement to resubmit after major revisions."
+  },
+  {
+    "id": "ai_034",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "The paper has fundamental issues that cannot be addressed with minor revisions. The proposed method has a critical flaw in the theoretical analysis — the main theorem is incorrect. The experimental results are not reproducible — the code is not released and the hyperparameters are not specified. I recommend rejection."
+  },
+  {
+    "id": "ai_035",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "This paper is not ready for publication. The proposed method is not novel — similar approaches have been published in prior work that the authors fail to cite. The experimental evaluation is weak — the method is only tested on synthetic data. The writing is unclear and the paper is difficult to follow. I recommend rejection."
+  },
+  {
+    "id": "ai_036",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "The paper has several major weaknesses. The proposed method is computationally expensive and the authors do not provide a complexity analysis. The experimental results are not convincing — the improvements are small and the variance is high. The paper lacks a thorough ablation study. I recommend rejection with encouragement to resubmit after major revisions."
+  },
+  {
+    "id": "ai_037",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "This paper does not make a sufficient contribution to warrant acceptance. The proposed method is a minor extension of existing work and the improvements are marginal. The experimental evaluation is limited to a single benchmark. The theoretical analysis is superficial. I recommend rejection."
+  },
+  {
+    "id": "ai_038",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "The paper has critical issues that prevent acceptance. The proposed method requires strong assumptions that are not satisfied in practice. The experimental results are not reproducible — the authors use a proprietary dataset that is not publicly available. The comparison with baselines is unfair. I recommend rejection."
+  },
+  {
+    "id": "ai_039",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "This paper is not ready for publication. The technical contribution is unclear — it is not obvious what is novel about the proposed approach. The experimental evaluation is insufficient — the method is only compared against weak baselines. The writing needs significant improvement. I recommend rejection with encouragement to resubmit."
+  },
+  {
+    "id": "ai_040",
+    "label": "ai",
+    "prompt_type": "cold_critical",
+    "text": "The paper has fundamental flaws that cannot be addressed with minor revisions. The proposed method is not well-motivated and the experimental results do not support the claims. The related work is incomplete and the paper ignores important prior work. I recommend rejection."
+  },
+  {
+    "id": "ai_041",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "The paper proposes an interesting approach. In Section 3, the authors describe their method in detail. The experimental results in Table 2 show improvements over baselines. Figure 4 illustrates the architecture clearly. The ablation study in Section 5 provides useful insights. However, Equation 7 seems to have a minor issue. Overall, I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_042",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "This paper makes a good contribution. The methodology in Section 3.2 is well-described. The results in Table 1 are impressive. Figure 3 shows the performance comparison clearly. The ablation in Section 5.1 is informative. I have a question about Equation 4 — could the authors clarify the notation? Overall, I recommend acceptance."
+  },
+  {
+    "id": "ai_043",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "The paper presents a novel approach. Section 2 provides good background. The proposed method in Section 3 is clearly explained. The experiments in Section 4 are comprehensive. Table 3 shows state-of-the-art results. Figure 5 illustrates the key insight. I recommend acceptance with minor revisions to clarify some details in Section 3.1."
+  },
+  {
+    "id": "ai_044",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "This is a well-written paper. The introduction in Section 1 clearly motivates the problem. The related work in Section 2 is comprehensive. The proposed method in Section 3 is novel. The experiments in Section 4 demonstrate the effectiveness of the approach. Table 2 shows significant improvements. I recommend acceptance."
+  },
+  {
+    "id": "ai_045",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "The paper makes a solid contribution. The problem formulation in Section 2 is clear. The proposed algorithm in Section 3 is well-described. The theoretical analysis in Section 4 provides convergence guarantees. The experiments in Section 5 validate the approach. Figure 6 shows the training curves. I recommend acceptance with minor revisions."
+  },
+  {
+    "id": "ai_046",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "This paper presents an interesting approach. The motivation in Section 1 is compelling. The technical contribution in Section 3 is novel. The experimental setup in Section 4 is thorough. Table 4 shows competitive results. Figure 2 illustrates the proposed architecture. I have a minor concern about the evaluation metric used in Section 5. Overall, I recommend acceptance."
+  },
+  {
+    "id": "ai_047",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "The paper addresses an important problem. Section 1 provides good motivation. The proposed method in Section 3 is well-motivated. The experiments in Section 4 are comprehensive. Table 1 shows state-of-the-art results on multiple benchmarks. Figure 3 provides a clear visualization. I recommend acceptance with minor revisions to address some experimental gaps."
+  },
+  {
+    "id": "ai_048",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "This is a good paper. The background in Section 2 is helpful. The proposed framework in Section 3 is innovative. The theoretical analysis in Section 4 is rigorous. The experiments in Section 5 validate the approach on multiple datasets. Table 3 shows significant improvements over baselines. I recommend acceptance."
+  },
+  {
+    "id": "ai_049",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "The paper makes a meaningful contribution. The problem statement in Section 1 is clear. The proposed method in Section 3 is well-described. The experimental evaluation in Section 4 is thorough. Table 2 shows competitive results. Figure 4 illustrates the key components. I have a question about the hyperparameter selection in Section 4.2. Overall, I recommend acceptance."
+  },
+  {
+    "id": "ai_050",
+    "label": "ai",
+    "prompt_type": "specific_sounding",
+    "text": "This paper presents a novel approach to an important problem. Section 2 provides comprehensive background. The proposed method in Section 3 is innovative. The experiments in Section 4 demonstrate strong performance. Table 1 shows state-of-the-art results. Figure 5 provides a clear comparison. I recommend acceptance with minor revisions to improve the clarity of Section 3.2."
+  }
+]

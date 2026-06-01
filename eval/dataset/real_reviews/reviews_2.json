@@ -1,0 +1,127 @@
+[
+  {
+    "id": "real_026",
+    "label": "human",
+    "text": "The paper introduces a new benchmark for commonsense reasoning. The dataset construction is described in Section 3 but the inter-annotator agreement is not reported. Table 2 shows the proposed method outperforms GPT-4 on the new benchmark, but the GPT-4 evaluation uses zero-shot prompting while the proposed method is fine-tuned — this is an unfair comparison."
+  },
+  {
+    "id": "real_027",
+    "label": "human",
+    "text": "Solid work on knowledge distillation. The proposed method in Section 3.2 is well-described. My concern is with the teacher model selection — the authors use a 175B parameter model as teacher but don't discuss the cost. The student model in Table 3 achieves 95% of teacher performance, but the baseline (standard KD) achieves 94% — the improvement is marginal."
+  },
+  {
+    "id": "real_028",
+    "label": "human",
+    "text": "The paper presents a new approach to neural architecture search. The search space in Section 3 is well-defined. However, the search cost (Table 5) is 200 GPU-hours, which is not competitive with recent NAS methods that require <10 GPU-hours. The found architecture in Figure 4 looks similar to EfficientNet — is this a coincidence or expected?"
+  },
+  {
+    "id": "real_029",
+    "label": "human",
+    "text": "Interesting paper on continual learning. The proposed method avoids catastrophic forgetting on the Split-CIFAR benchmark (Table 2). However, the method requires storing a replay buffer of 500 examples per task, which grows linearly with the number of tasks. This scalability issue is not discussed. The comparison with EWC in Table 3 uses different hyperparameters."
+  },
+  {
+    "id": "real_030",
+    "label": "human",
+    "text": "The paper proposes a new method for text summarization. The ROUGE scores in Table 1 are impressive. However, ROUGE is known to be a poor proxy for summary quality — the paper should include human evaluation. The proposed method generates summaries that are 30% longer than the reference (Table 3), which inflates ROUGE scores artificially."
+  },
+  {
+    "id": "real_031",
+    "label": "human",
+    "text": "Good paper on reinforcement learning from human feedback. The reward model in Section 3.1 is well-described. My concern is the evaluation: the authors use GPT-4 as the judge, but GPT-4 may be biased toward outputs that resemble its own style. The human evaluation in Table 4 uses only 3 annotators — this is insufficient for statistical significance."
+  },
+  {
+    "id": "real_032",
+    "label": "human",
+    "text": "The paper addresses an important problem in medical image segmentation. The proposed U-Net variant achieves good results on the BraTS dataset. However, the comparison in Table 2 uses different preprocessing than the baseline papers — this makes the comparison unfair. The proposed method requires 16GB GPU memory, which limits clinical applicability."
+  },
+  {
+    "id": "real_033",
+    "label": "human",
+    "text": "Technically sound paper on point cloud processing. The proposed method in Section 3 is novel. However, the experiments are limited to ModelNet40 and ShapeNet — the method should be evaluated on more challenging real-world datasets like ScanNet. The inference time in Table 4 is 3x slower than PointNet++ which is not discussed."
+  },
+  {
+    "id": "real_034",
+    "label": "human",
+    "text": "The paper proposes a new optimizer for deep learning. The convergence proof in Section 4 is rigorous. However, the experiments in Section 5 only compare against SGD and Adam — the comparison should include more recent optimizers (AdamW, LAMB, Lion). The proposed method requires tuning 3 hyperparameters vs 2 for Adam, which increases the search cost."
+  },
+  {
+    "id": "real_035",
+    "label": "human",
+    "text": "Interesting work on self-supervised learning. The proposed pretext task in Section 3 is creative. However, the linear evaluation protocol in Table 2 shows only 1.2% improvement over SimCLR, which is within the variance of the method. The fine-tuning results in Table 3 are more convincing. The paper should report results on more downstream tasks."
+  },
+  {
+    "id": "real_036",
+    "label": "human",
+    "text": "The paper presents a new method for neural machine translation. The BLEU scores in Table 1 are state-of-the-art on WMT14 En-De. However, the proposed method uses 2x more parameters than the baseline (Table 5), which is not a fair comparison. The ablation in Section 5.3 is helpful but should include a variant without the proposed attention mechanism."
+  },
+  {
+    "id": "real_037",
+    "label": "human",
+    "text": "Good paper on graph generation. The proposed method generates realistic molecular graphs (Table 2). However, the validity metric in Table 2 is computed differently than in prior work — the authors use RDKit while prior work uses OpenBabel. This makes comparison difficult. The proposed method fails on large molecules (>50 atoms) which is not discussed."
+  },
+  {
+    "id": "real_038",
+    "label": "human",
+    "text": "The paper proposes a new method for video understanding. The action recognition results in Table 1 are impressive. However, the proposed method requires optical flow as input, which is expensive to compute. The comparison in Table 2 is unfair because the baseline does not use optical flow. The temporal modeling in Section 3.2 is not well-motivated."
+  },
+  {
+    "id": "real_039",
+    "label": "human",
+    "text": "Solid paper on dialogue systems. The proposed method achieves good results on MultiWOZ. However, the evaluation metric (Joint Goal Accuracy) is known to be sensitive to exact string matching — the paper should also report fuzzy matching results. The proposed method requires a knowledge base at inference time, which limits deployment in low-resource settings."
+  },
+  {
+    "id": "real_040",
+    "label": "human",
+    "text": "The paper introduces a new approach to code generation. The pass@k results in Table 1 are impressive on HumanEval. However, the proposed method is evaluated only on Python — the claim of 'language-agnostic' in the abstract is not supported. The comparison with Codex uses an older version (code-davinci-002) rather than the current best model."
+  },
+  {
+    "id": "real_041",
+    "label": "human",
+    "text": "Interesting work on federated learning. The proposed method reduces communication cost by 10x (Table 3). However, the privacy analysis in Section 4 is informal — the paper should provide formal differential privacy guarantees. The experiments use IID data distribution, but federated learning is most relevant for non-IID settings."
+  },
+  {
+    "id": "real_042",
+    "label": "human",
+    "text": "The paper proposes a new method for anomaly detection. The AUC scores in Table 2 are state-of-the-art on MVTec. However, the proposed method requires a clean training set with no anomalies, which is a strong assumption. The inference time in Table 4 is 100ms per image, which may be too slow for real-time applications."
+  },
+  {
+    "id": "real_043",
+    "label": "human",
+    "text": "Good paper on speech recognition. The WER results in Table 1 are impressive on LibriSpeech. However, the proposed method uses a much larger language model than the baseline (Table 5), which is not a fair comparison. The ablation in Section 5.2 should include a variant without the proposed acoustic model modification."
+  },
+  {
+    "id": "real_044",
+    "label": "human",
+    "text": "The paper presents a new approach to question answering. The F1 scores in Table 1 are state-of-the-art on SQuAD 2.0. However, the proposed method requires the answer to be a span in the context, which limits its applicability to abstractive QA. The comparison in Table 2 uses different context lengths for different methods."
+  },
+  {
+    "id": "real_045",
+    "label": "human",
+    "text": "Technically sound paper on image generation. The FID scores in Table 1 are impressive. However, the proposed method requires 1000 diffusion steps at inference time, which is 10x slower than the baseline. The paper should discuss the trade-off between quality and speed. The human evaluation in Table 3 uses only 50 images, which is insufficient."
+  },
+  {
+    "id": "real_046",
+    "label": "human",
+    "text": "The paper proposes a new method for relation extraction. The F1 scores in Table 1 are state-of-the-art on TACRED. However, the proposed method requires entity type information as input, which is not always available. The ablation in Section 5.3 shows that removing entity types drops performance by 5 F1 points, suggesting the method heavily relies on this feature."
+  },
+  {
+    "id": "real_047",
+    "label": "human",
+    "text": "Good paper on multi-task learning. The proposed method achieves consistent improvements across all tasks in Table 2. However, the improvement on Task C is only 0.1%, which is within noise. The proposed method requires task-specific heads, which increases the parameter count by 20% compared to the single-task baseline."
+  },
+  {
+    "id": "real_048",
+    "label": "human",
+    "text": "The paper introduces a new benchmark for visual question answering. The dataset is well-constructed and the annotation process is described in detail. However, the proposed baseline in Table 3 uses a much larger model than the comparison methods — this makes the comparison unfair. The paper should include a fair comparison with models of similar size."
+  },
+  {
+    "id": "real_049",
+    "label": "human",
+    "text": "Interesting work on neural program synthesis. The proposed method achieves good results on the Karel benchmark. However, the method requires a large number of input-output examples (Section 3.2), which limits its applicability. The comparison in Table 2 uses different numbers of examples for different methods, which is unfair."
+  },
+  {
+    "id": "real_050",
+    "label": "human",
+    "text": "The paper proposes a new method for semantic segmentation. The mIoU scores in Table 1 are state-of-the-art on ADE20K. However, the proposed method uses a ViT-L backbone while the baseline uses ResNet-50 — this is not a fair comparison. The inference time in Table 4 is 5x slower than the baseline, which limits real-time applicability."
+  }
+]

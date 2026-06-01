@@ -1,0 +1,127 @@
+[
+  {
+    "id": "real_001",
+    "label": "human",
+    "text": "The paper proposes a novel attention mechanism described in Section 3.2. However, Equation 5 contains a derivation error — the normalization term is missing from the denominator. Figure 4(b) shows the ablation results, but Table 2 is missing confidence intervals for the baseline comparisons. In Section 5.1, the authors claim 94% accuracy but the numbers in Figure 6 show 91.2%, which is a discrepancy that needs addressing. Algorithm 1 on page 8 also has an off-by-one error in the loop bounds."
+  },
+  {
+    "id": "real_002",
+    "label": "human",
+    "text": "Strong submission overall. The proof in Appendix A is elegant. Two concerns: (1) the assumption in Theorem 2 about Lipschitz continuity is too strong for the general case, (2) Figure 3 shows divergence at step 100k but the text claims convergence. Could the authors clarify which experiments used the released codebase versus reimplementations? The ablation in Table 4 is missing the baseline without the proposed regularizer."
+  },
+  {
+    "id": "real_003",
+    "label": "human",
+    "text": "I'm skeptical of the results in Table 3 — the improvement over BERT-base is within noise (p=0.08 by my calculation). Have you tried longer training? The 50-epoch limit seems arbitrary. Also, Section 4.3 references 'future work' twice but doesn't specify what. The paper would benefit from a clearer ablation; right now Section 5 is a wall of numbers without clear takeaways."
+  },
+  {
+    "id": "real_004",
+    "label": "human",
+    "text": "Equation 3 in Section 3.1 has a sign error in the third term. The derivation from Eq. 2 to Eq. 3 skips a step that is not obvious. Figure 2 caption mentions 'best viewed in color' but the heatmap is grayscale only. On page 7, the claim about O(n) complexity contradicts the implementation in Algorithm 2 which is clearly O(n^2). Specific issues: (a) hyperparameter sensitivity not addressed, (b) only 3 random seeds used."
+  },
+  {
+    "id": "real_005",
+    "label": "human",
+    "text": "The related work section misses several key papers on sparse attention (Longformer, BigBird). The experimental setup in Section 4 is unclear — what is the train/val/test split? Table 1 reports BLEU but the state-of-the-art uses COMET. The proposed method in Algorithm 1 requires O(n^2) memory which makes it impractical for sequences longer than 512 tokens, yet the paper claims scalability."
+  },
+  {
+    "id": "real_006",
+    "label": "human",
+    "text": "Section 2.3 introduces notation that conflicts with Section 3.1 — the variable 'k' is used for two different things. The proof of Theorem 1 in Appendix B has a gap at line 7 where the authors assume independence without justification. Figure 5 is too small to read. The comparison in Table 2 is unfair because the baseline uses a different tokenizer."
+  },
+  {
+    "id": "real_007",
+    "label": "human",
+    "text": "The paper makes a strong claim in the abstract ('state-of-the-art on all benchmarks') but Table 3 shows the method is second on GLUE and third on SuperGLUE. This needs to be corrected. The training details in Section 4.2 are insufficient for reproduction — what learning rate schedule? What batch size? The ablation in Table 5 is missing the most important variant (without the proposed attention head)."
+  },
+  {
+    "id": "real_008",
+    "label": "human",
+    "text": "I appreciate the clear motivation in Section 1. However, the technical contribution is incremental — the proposed method is essentially a combination of existing techniques (Transformer + contrastive loss) without a clear theoretical justification for why this combination works. The experiments in Section 5 are limited to two datasets. The error bars in Figure 4 are missing."
+  },
+  {
+    "id": "real_009",
+    "label": "human",
+    "text": "The paper addresses an important problem. My main concern is the evaluation: the authors compare against baselines from 2019-2020 but ignore more recent work (2022-2023). The proposed method requires 4x more compute than the strongest baseline (Table 6), which is not discussed. Section 3.4 has a typo in Equation 8 — the subscript should be t-1 not t+1."
+  },
+  {
+    "id": "real_010",
+    "label": "human",
+    "text": "Interesting approach to the problem. The key insight in Section 3 is novel. However, Figure 1 is misleading — the diagram suggests the method is end-to-end but Section 4.1 reveals it requires a pre-trained encoder. The claim in line 234 that 'our method is parameter-free' is incorrect — there are 3 learnable parameters in Equation 6. Please fix this."
+  },
+  {
+    "id": "real_011",
+    "label": "human",
+    "text": "The experimental results are impressive but I have reproducibility concerns. The code is not released and the hyperparameter search space is not described. Table 2 shows variance across seeds but only 3 seeds were used — this is insufficient for statistical significance. The comparison with Method X in Table 3 uses a different evaluation protocol than the original paper."
+  },
+  {
+    "id": "real_012",
+    "label": "human",
+    "text": "Section 4 describes the dataset but doesn't mention data augmentation. Were augmentations used during training? The ablation in Table 4 is incomplete — what happens without the proposed loss term? Figure 6 shows training curves but the y-axis label is missing. The paper claims the method is 'computationally efficient' but provides no FLOPs comparison."
+  },
+  {
+    "id": "real_013",
+    "label": "human",
+    "text": "The motivation is clear and the writing is generally good. My main technical concern is with Lemma 2 in Section 3.3 — the proof assumes the data distribution is Gaussian, but this assumption is never verified empirically. The experiments in Section 5 use a fixed random seed (42) which may bias the results. I recommend at least 5 seeds."
+  },
+  {
+    "id": "real_014",
+    "label": "human",
+    "text": "The paper tackles an important problem in NLP. However, the proposed method has a significant limitation that is not discussed: it requires access to the full document at inference time, making it unsuitable for streaming applications. The comparison in Table 1 is unfair — the baseline was trained on less data. Section 2 is too long and could be condensed."
+  },
+  {
+    "id": "real_015",
+    "label": "human",
+    "text": "I found several issues with the experimental setup. First, the test set overlaps with the training set for Dataset B (see the data collection procedure in Section 4.1). Second, the reported numbers for the baseline in Table 2 differ from the original paper by 2.3 BLEU points — please clarify. Third, the proposed method fails on long documents (>1000 tokens) which is not mentioned."
+  },
+  {
+    "id": "real_016",
+    "label": "human",
+    "text": "The core idea is interesting but the paper needs significant revision. The notation in Section 3 is inconsistent — bold vs non-bold vectors are mixed. Equation 4 has a dimension mismatch: the left side is R^d but the right side is R^{d x d}. The related work misses the concurrent work by Smith et al. (2023) which proposes a very similar approach."
+  },
+  {
+    "id": "real_017",
+    "label": "human",
+    "text": "Good paper overall. The proposed method is well-motivated and the experiments are thorough. My main concern is the computational cost — Table 5 shows 3x slower inference than the baseline, which limits practical applicability. The ablation in Section 5.3 is helpful but should include a variant without the pre-training step. Minor: Figure 3 labels are too small."
+  },
+  {
+    "id": "real_018",
+    "label": "human",
+    "text": "The paper presents a novel approach to few-shot learning. However, I have concerns about the evaluation protocol. The authors use 5-way 1-shot evaluation but the state-of-the-art uses 5-way 5-shot — this makes comparison difficult. The proposed method requires a large support set at test time (Section 3.2), which contradicts the few-shot setting."
+  },
+  {
+    "id": "real_019",
+    "label": "human",
+    "text": "Technically sound paper. The main weakness is the limited scope of experiments — only English datasets are used despite the claim of 'multilingual capability'. The cross-lingual transfer results in Table 6 are weak (below zero-shot baseline for 3 out of 5 languages). Section 4.3 should discuss why the method fails on low-resource languages."
+  },
+  {
+    "id": "real_020",
+    "label": "human",
+    "text": "The paper is well-written and addresses an important problem. However, the proposed method has a critical flaw: it assumes access to labeled data from the target domain during training (Section 3.1, line 156), which violates the unsupervised domain adaptation setting claimed in the abstract. This needs to be either fixed or the claims need to be revised."
+  },
+  {
+    "id": "real_021",
+    "label": "human",
+    "text": "Interesting work on graph neural networks. The proposed aggregation function in Equation 3 is novel. However, the complexity analysis in Section 4 is incorrect — the authors claim O(|E|) but the implementation in Algorithm 1 is O(|E| * d) where d is the feature dimension. The experiments on the OGB benchmarks are missing — these are now standard for GNN papers."
+  },
+  {
+    "id": "real_022",
+    "label": "human",
+    "text": "The paper proposes an interesting regularization technique. My concern is that the proposed method is sensitive to the hyperparameter lambda (Section 3.3) but the sensitivity analysis in Figure 7 only covers a narrow range (0.01 to 0.1). What happens for lambda > 1? The comparison in Table 3 uses a different optimizer for the baseline, which is unfair."
+  },
+  {
+    "id": "real_023",
+    "label": "human",
+    "text": "The paper addresses an important problem in computer vision. The proposed method achieves good results on CIFAR-10 but the ImageNet results in Table 4 are below the baseline. The authors attribute this to 'domain shift' but provide no analysis. Section 5.2 mentions a 'data augmentation trick' but doesn't describe it — this is a reproducibility issue."
+  },
+  {
+    "id": "real_024",
+    "label": "human",
+    "text": "Well-motivated paper. The key contribution is the new loss function in Equation 5. However, the gradient of this loss (Equation 6) has a numerical instability issue when the denominator approaches zero — this is not discussed. The experiments in Section 5 use a fixed learning rate of 0.001 without justification. The ablation should include a variant with the standard cross-entropy loss."
+  },
+  {
+    "id": "real_025",
+    "label": "human",
+    "text": "The paper makes a strong empirical contribution. My main concern is the theoretical analysis in Section 4 — Theorem 1 claims convergence but the proof in Appendix C has a gap at step 3 where the authors use a bound that requires the loss to be strongly convex, which is not satisfied by the proposed objective. The experiments are solid but limited to synthetic data."
+  }
+]
