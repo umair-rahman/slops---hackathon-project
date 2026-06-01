@@ -39,6 +39,8 @@ class Settings(BaseSettings):
         "https://marginalia.vercel.app",
         "https://marginalia-ai.vercel.app",
         "https://slops-hackathon-project.vercel.app",
+        "https://slops---hackathon-project.vercel.app",
+        "https://slops-hackathon-project-production.up.railway.app",
     ]
 
     # ML Model
